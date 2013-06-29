@@ -10,17 +10,17 @@
 
 ## API
 
-   var a = {
+    var a = {
      foo: 'bar',
      toto: 'tata'
-   };
+    };
 
-   var b = {};
+    var b = {};
 
-   mixin(b, a);
+    mixin(b, a);
 
-   assert(b.foo === 'bar');
-   assert(b.toto === 'tata');
+    assert(b.foo === 'bar');
+    assert(b.toto === 'tata');
 
 ## License
 
